@@ -162,7 +162,7 @@ add_or_update_asdf_plugin() {
 }
 
 # shellcheck disable=SC1090
-source "$HOME/.asdf/asdf.sh"
+source "$(brew --prefix asdf)/libexec/asdf.sh"
 add_or_update_asdf_plugin "ruby" "https://github.com/asdf-vm/asdf-ruby.git"
 add_or_update_asdf_plugin "nodejs" "https://github.com/asdf-vm/asdf-nodejs.git"
 
