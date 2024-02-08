@@ -147,7 +147,7 @@ cask "visual-studio-code"
 
 # UTILS
 cask "1password"
-# cask "adobe-acrobat-reader"
+cask "adobe-acrobat-reader"
 EOF
 
 fancy_echo "Configuring asdf version manager ..."
